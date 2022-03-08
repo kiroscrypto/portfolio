@@ -35,11 +35,11 @@ header nav #gnb {text-align: center; }
 header nav #gnb>li {display: inline-block; }
 header nav #gnb .g2 > li {display: none;} 
 
-header .hdr_util {float: right; background: red;}
+header .hdr_util {float: right;}
 header .hdr_util .lang {float: left;}
 header .hdr_util .lang li {float: left;}
 header .hdr_util .ham_btn {}
-header .hdr_util .ham_btn span {display: block; width: 25px; height: 5px; margin: 2px 0; background: #000;}
+header .hdr_util .ham_btn span {display: block; width: 25px; height: 5px; margin: 2px 0; background: #3366ff;}
 
 header .allmenu {display: none;}
 header .allmenu .a1 {}
@@ -55,7 +55,7 @@ main .visual_slide_wrap .vis_slider .video_slide {
   width: 100vw;height: 100vh;float: left;position: relative;overflow: hidden;
 }
 main .visual_slide_wrap .vis_slider .video_slide video {}
-main .visual_slide_wrap .vis_slider .video_slide .vis_txt {position: absolute;left: calc(50% - 1140px / 2);top: 50%;transform: translateY(-50%);color: #FFF}
+main .visual_slide_wrap .vis_slider .video_slide .vis_txt {position: absolute;left: 10% ;top: 50%;transform: translateY(-50%);color: #FFF}
 main .visual_slide_wrap .vis_slider .video_slide .vis_txt strong {display: block;margin-bottom: 60px;font-weight: 700;font-size: 64px;}
 main .visual_slide_wrap .vis_slider .video_slide .vis_txt strong span {}
 main .visual_slide_wrap .vis_slider .video_slide .vis_txt p {margin-bottom: 60px;font-size: 20px;line-height: 1.6;}
