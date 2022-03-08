@@ -118,17 +118,26 @@ main .cmty li a {}
 main .cmty li a span {}
 main .cmty li a img {}
 main .q_menu {position: absolute; bottom: 0; }
-main .q_menu li {float: left; width: calc(16.666% - 24px); height: 100px; border: 2px solid #fff;}
+main .q_menu li {float: left; width: calc(16.666% - 24px); height: 100px; border: 1px solid #fff;}
 main .q_menu li a {}
 main .q_menu li a img {}
-main .q_menu li a span {}
+main .q_menu li a span {color: #FFF;}
 /*end_more_info_wrap*/
 
 /*start_support_wrap*/
 main .support_wrap {}
 main .support_wrap li {float: left;}
-main .support_wrap .recruit {width: 50%; height: 425PX; background: url(../img/bg/recruit.jpg)no-repeat; background-size: contain;}
-main .support_wrap .customer {width: 50%; height: 425PX; background: url(../img/bg/customer.jpg)no-repeat; background-size: contain;}
+main .support_wrap .recruit {width: 50%; height: 425PX; color: #FFF; background: url(../img/bg/recruit.jpg)no-repeat; background-size: contain;}
+main .support_wrap .recruit a { }
+main .support_wrap .recruit a span { }
+main .support_wrap .recruit a strong { }
+main .support_wrap .recruit a p { }
+
+main .support_wrap .customer {width: 50%; height: 425PX; color: #FFF; background: url(../img/bg/customer.jpg)no-repeat; background-size: contain;}
+main .support_wrap .customer a { }
+main .support_wrap .customer a span { }
+main .support_wrap .customer a strong { }
+main .support_wrap .customer a p { }
 /*end_support_wrap*/
 /*end_main*/
 
