@@ -82,7 +82,7 @@ main .esg_wrap ul li a img {}
 /*end_esg*/
 
 /*start_biz_area*/
-main .biz_area_wrap {height: 100vh; margin: 100px 0; background: url(../img/bg/biz_area.jpg)no-repeat; background-size: cover; }
+main .biz_area_wrap {height: 100vh; margin: 100px 0; background: url(../img/bg/biz_area.png)no-repeat; background-size: cover; }
 main .biz_area_wrap h2 {}
 main .biz_area_wrap p {}
 main .biz_area_wrap ul li {float: left; width: 25%; position: relative;}
