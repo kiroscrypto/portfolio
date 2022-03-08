@@ -78,7 +78,7 @@ main .esg_wrap ul li a .txt {position: absolute; left: 0; top: 0; color: #fff;}
 main .esg_wrap ul li a .txt span {}
 main .esg_wrap ul li a .txt strong {}
 main .esg_wrap ul li a .txt em {}
-main .esg_wrap ul li a img {}
+main .esg_wrap ul li a img {width: 100%;}
 /*end_esg*/
 
 /*start_biz_area*/
@@ -163,10 +163,10 @@ footer .top_btn {position: absolute; right: 0; bottom: 0; }
   /*end-header*/
   
   /*start_main*/
-  main .esg_wrap ul li {float: none; }
+  main .esg_wrap ul li {float: none; width: 100%;}
 
   main .biz_area_wrap ul li {width: 50%; }
-  main .biz_area_wrap a img {}
+
 
   main .biz_network_wrap {background-image: none}
   main .biz_network_wrap .popup {display: none;}
