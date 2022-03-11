@@ -118,16 +118,19 @@ main .biz_network_wrap .office li span.mob {display: none;}
 /*start_more_info_wrap*/
 main .more_info_wrap {width:100%; height: 1005px; position: relative; margin-top: 100px;
   background-image: url(../img/bg/community.jpg) ; }
-main .more_info_wrap .cmty {}
-main .cmty li {float: left; width: calc(25% - 38px/4); height: 250px; margin: 150px 10px 0 0; text-align: center; color:#fff; border:1px solid #fff; }
+main .more_info_wrap .cmty {border: 2px solid #000;}
+main .cmty li {float: left; width: calc(25% - 38px/4); height: 250px; margin: 150px 10px 0 0; 
+  text-align: center; color:#fff; border:1px solid #fff; }
 main .cmty li:last-child {margin-right: 0; }
 main .cmty li a { }
 main .cmty li a span {display: inline-block; font-size: 26px; padding: 50px 0 50px 0;}
 main .cmty li a img {display: block; margin: auto;}
-main .q_menu {position: absolute; bottom: 0; }
-main .q_menu li {float: left; width: calc(16.666% - 24px); height: 100px; border: 1px solid #fff;}
+main .q_menu {padding-top: 25%; border: 2px solid #000;}
+main .q_menu li {float: left; width: calc(16.666% - (18px*5/6)); height: 120px; 
+  margin-right: 15px; border: 1px solid #fff; text-align: center; }
+main .q_menu li:last-child {margin-right: 0; }
 main .q_menu li a {}
-main .q_menu li a img {}
+main .q_menu li a img {display: block; margin: auto; padding: 15px; }
 main .q_menu li a span {color: #FFF;}
 /*end_more_info_wrap*/
 
@@ -192,8 +195,10 @@ footer .top_btn {position: absolute; right: 0; bottom: 0; }
 
   main .more_info_wrap .cmty li {width: calc(50% - 14px/2);  margin: 10px 10px 0 0;}
   main .more_info_wrap .cmty li:nth-child(2n) {margin-right: 0;}
-  main .q_menu li {float: left; width: calc(33.3336% - 12px); height: 100px;}
 
+  main .more_info_wrap .q_menu li {float: left; width: calc(33.3333% - 30px/3 - 6px);margin: 10px 10px 10px 0;}
+  main .more_info_wrap .q_menu li:nth-child(3) {margin-right: 0;}
+  main .more_info_wrap .q_menu li:nth-child(6) {margin-right: 0;}
   main .support_wrap li {float: none;}
   main .support_wrap .recruit {width: 100%;}
   main .support_wrap .customer {width: 100%; }
