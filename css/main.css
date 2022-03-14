@@ -86,6 +86,8 @@ main .esg_wrap ul li a .txt strong {display: inline-block;font-size: 18px; posit
 main .esg_wrap ul li a .txt em {display: inline-block;font-size: 18px; position: absolute; right: 10%; top: 50%;  }
 main .esg_wrap ul li .arw {width: 130px; position: absolute; right: 10%; top: 35%; }
 main .esg_wrap ul li a img {width: 100%;}
+main .esg_wrap ul li a .bg_circle {display: block; width: 120px; height: 120px; border-radius: 60px; background: #153399;}
+
 
 /*end_esg*/
 
@@ -106,7 +108,7 @@ main .biz_area_wrap li .on {height: 100%; position: absolute; left: 0; right: 0;
 /*end_biz_area*/
 
 /*start_biz_network*/
-main .biz_network_wrap {width: 100%; height: 980px; position: relative; margin: 150px 0; 
+main .biz_network_wrap {width: 100%; height: 980px; position: relative; margin: 150px 0 80px 0; 
   background: url(../img/bg/map.png) no-repeat center; }
 main .biz_network_wrap h2 {font-size: 40px; font-weight: 900; margin-bottom: 30px; text-align: center;}
 main .biz_network_wrap p {font-size: 18px; font-weight: normal; margin-bottom: 30px;line-height: 1.5; text-align: center;}
@@ -114,8 +116,9 @@ main .biz_network_wrap .popup {width: 360px; height: 200px; position: relative; 
 main .biz_network_wrap .popup li {color: #fff; }
 main .biz_network_wrap .arw {display: block; width: 30px; height: 30px; 
   position: absolute; left: -15px; top: 0; background: #145599; transform: translate(-45deg);}
-main .biz_network_wrap .office { position: absolute; bottom:70px; left: 50%; transform: translateX(-50%); color: #fff;}
-main .biz_network_wrap .office li {float: left; margin-right: 10px; font-size: 22px; font-weight: bold; color: #999;}
+main .biz_network_wrap .office {background: yellow; text-align: center; margin-top: 60%;}
+main .biz_network_wrap .office li {display: inline-block; margin-right: 20px; font-size: 30px; font-weight: bold; color: #999;}
+
 
 main .biz_network_wrap .office li.on {color: #145599;}
 main .biz_network_wrap .office li span.mob {display: none;}
