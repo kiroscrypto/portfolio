@@ -68,7 +68,7 @@ main .visual_slide_wrap .dir_control .prev {left: 40px;}
 main .visual_slide_wrap .dir_control .next {right: 40px;}
  
 /*start_esg*/
-main .esg_wrap {margin: 100px 0;}
+main .esg_wrap {margin: 150px 0;}
 main .esg_wrap h2 {font-size: 40px; font-weight: 900; margin-bottom: 30px; text-align: center;}
 main .esg_wrap p {font-size: 18px; font-weight: normal; margin-bottom: 30px; line-height: 1.5; text-align: center;}
 main .esg_wrap ul {padding: 40px 0;}
@@ -90,7 +90,7 @@ main .esg_wrap ul li a img {width: 100%;}
 /*end_esg*/
 
 /*start_biz_area*/
-main .biz_area_wrap {background: url(../img/bg/biz_area.png); }
+main .biz_area_wrap {width: 100%; height: 980px; background: url(../img/bg/biz_area.png) no-repeat; background-size: cover;}
 main .biz_area_wrap h2 {font-size: 40px; font-weight: 900; margin-bottom: 30px; text-align: center;}
 main .biz_area_wrap p {font-size: 18px; font-weight: normal; margin-bottom: 30px;line-height: 1.5; text-align: center;}
 main .biz_area_wrap ul li {float: left; width: calc(25% - 3px); position: relative; margin-top: 5%; border-right: 1px solid #fff;}
@@ -106,15 +106,15 @@ main .biz_area_wrap li .on {height: 100%; position: absolute; left: 0; right: 0;
 /*end_biz_area*/
 
 /*start_biz_network*/
-main .biz_network_wrap {width: 100%; height: 700px; position: relative; margin: 100px 0; 
-  background: url(../img/bg/map.jpg); }
+main .biz_network_wrap {width: 100%; height: 980px; position: relative; margin: 150px 0; 
+  background: url(../img/bg/map.png) no-repeat center; }
 main .biz_network_wrap h2 {font-size: 40px; font-weight: 900; margin-bottom: 30px; text-align: center;}
 main .biz_network_wrap p {font-size: 18px; font-weight: normal; margin-bottom: 30px;line-height: 1.5; text-align: center;}
 main .biz_network_wrap .popup {width: 360px; height: 200px; position: relative; position: absolute; left:40%; top: 30%; background: #145599;}
 main .biz_network_wrap .popup li {color: #fff; }
 main .biz_network_wrap .arw {display: block; width: 30px; height: 30px; 
   position: absolute; left: -15px; top: 0; background: #145599; transform: translate(-45deg);}
-main .biz_network_wrap .office { position: absolute; bottom:0; left: 50%; transform: translateX(-50%); color: #fff;}
+main .biz_network_wrap .office { position: absolute; bottom:70px; left: 50%; transform: translateX(-50%); color: #fff;}
 main .biz_network_wrap .office li {float: left; margin-right: 10px; font-size: 22px; font-weight: bold; color: #999;}
 
 main .biz_network_wrap .office li.on {color: #145599;}
@@ -122,8 +122,8 @@ main .biz_network_wrap .office li span.mob {display: none;}
 /*end_biz_network*/
 
 /*start_more_info_wrap*/
-main .more_info_wrap {width:100%; height: 700px; position: relative;
-  background-image: url(../img/bg/community.jpg); }
+main .more_info_wrap {width:100%; height: 980px; position: relative;
+  background: url(../img/bg/community.png) no-repeat center; background-size: cover;}
 main .more_info_wrap .cmty {border: 2px solid #000;}
 main .cmty li {float: left; width: calc(25% - 38px/4); height: 300px; margin: 125px 10px 0 0; 
   text-align: center; color:#fff; border:1px solid #fff; }
