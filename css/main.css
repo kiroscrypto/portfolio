@@ -120,6 +120,7 @@ main .biz_network_wrap .office li {float: left; margin-right: 10px; font-size: 2
 main .biz_network_wrap .office li.on {color: #145599;}
 main .biz_network_wrap .office li span.mob {display: none;}
 main .biz_network_wrap .pin {position: absolute; left: 0; top: 0; border: 3px solid #000;}
+main .biz_network_wrap .pin img {width: 30px; height: 30px;}
 /*end_biz_network*/
 
 /*start_more_info_wrap*/
