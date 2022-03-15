@@ -118,8 +118,8 @@ main .biz_network_wrap .pin .sing {position: absolute; left: 40%; top: 50%; }
 main .biz_network_wrap .pin .vietnam {position: absolute; left: 40%; top: 50%; }
 main .biz_network_wrap .popup {width: 360px; height: 200px; position: relative; position: absolute; left:40%; top: 30%; background: #145599;}
 main .biz_network_wrap .popup li {color: #fff; padding: 10px 10px;}
-main .biz_network_wrap .arw {display: block; width: 30px; height: 30px; 
-  position: absolute; left: -30px; top: 0; background: #145599; transform: rotate(-45deg);}
+main .biz_network_wrap .arw {display: block; width: 20px; height: 20px; 
+  position: absolute; left: -10px; top: 5px; background: #145599; transform: rotate(-45deg);}
 main .biz_network_wrap .office { position: absolute; bottom:70px; left: 50%; transform: translateX(-50%); color: #fff;}
 main .biz_network_wrap .office li {float: left; margin-right: 10px; font-size: 22px; font-weight: bold; color: #999;}
 
@@ -157,7 +157,7 @@ main .support_wrap .recruit strong {display: block; font-size: 26px; font-weight
 main .support_wrap .recruit p {font-size: 18px;}
 
 main .support_wrap .customer {width: 50%; height: 425PX; color: #FFF; background: url(../img/bg/customer.jpg)no-repeat; background-size: contain;}
-main .support_wrap .customer a {display: inline-block; margin: 20px 0 0 40px;}}
+main .support_wrap .customer a {display: inline-block; margin: 20px 0 0 40px;}
 main .support_wrap .customer span {display: block; color: red; }
 main .support_wrap .customer strong {display: block; font-size: 26px; font-weight: bold; padding: 20px 0 30px 0;}
 main .support_wrap .customer p {font-size: 18px;}
