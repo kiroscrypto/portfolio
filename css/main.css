@@ -116,11 +116,12 @@ main .biz_network_wrap .pin .bang {transform: translate(-275px, 15px); }
 main .biz_network_wrap .pin .china {transform: translate(-175px, -5px); }
 main .biz_network_wrap .pin .sing {transform: translate(-235px, 75px); }
 main .biz_network_wrap .pin .vietnam {transform: translate(-225px, 25px); }
-main .biz_network_wrap .popup {position: absolute; left: 50%; top: 50%; }
+main .biz_network_wrap .popup { position: absolute; left: 50%; top: 50%; }
 main .biz_network_wrap .popup .h_txt {position:relative; transform: translate(-90px, -55px); padding: 10px; width: 350px; height:200px; 
   color: #FFF; border-radius: 10px; background-color: #145599;}
 main .biz_network_wrap .popup .h_txt:after {content:""; position: absolute; top: 21px; left: -30px; border-right: 30px solid #145599; 
   border-top: 10px solid transparent; border-bottom: 10px solid transparent;}
+       main .biz_network_wrap .pin .head:hover .popup {display: block;}
 main .biz_network_wrap .popup li {color: #fff; padding: 10px 10px;}
 main .biz_network_wrap .arw {display: block; width: 20px; height: 20px; 
   position: absolute; left: -10px; top: 5px; background: #145599; transform: rotate(-45deg);}
