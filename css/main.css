@@ -107,22 +107,21 @@ main .biz_area_wrap li .on {height: 100%; position: absolute; left: 0; right: 0;
 
 /*start_biz_network*/
 main .biz_network_wrap {width: 100%; height: 980px; position: relative; margin: 150px 0; 
-  background: url(../img/bg/map.png) no-repeat center; }
+  background: url(../img/bg/map.png) no-repeat center; } 
 main .biz_network_wrap h2 {font-size: 40px; font-weight: 900; margin-bottom: 30px; text-align: center;}
 main .biz_network_wrap p {font-size: 18px; font-weight: normal; margin-bottom: 30px;line-height: 1.5; text-align: center;}
-main .biz_network_wrap .pin img {width: 25px; height: 25px;}
-main .biz_network_wrap .pin .head {position: absolute; left: 42.3%; top: 46%; }
-main .biz_network_wrap .pin .bang {position: absolute; left: 40%; top: 50%; }
-main .biz_network_wrap .pin .china {position: absolute; left: 40%; top: 50%; }
-main .biz_network_wrap .pin .sing {position: absolute; left: 40%; top: 50%; }
-main .biz_network_wrap .pin .vietnam {position: absolute; left: 40%; top: 50%; }
-main .biz_network_wrap .popup {width: 360px; height: 200px; position: relative; position: absolute; left:40%; top: 30%; background: #145599;}
+main .biz_network_wrap .pin img {width: 25px; height: 25px; position: absolute; left: 50%; top: 50%; }
+main .biz_network_wrap .pin .head {transform: translate(-145px, -35px);}
+main .biz_network_wrap .pin .bang {transform: translate(-275px, 15px); }
+main .biz_network_wrap .pin .china {transform: translate(-175px, -5px); }
+main .biz_network_wrap .pin .sing {transform: translate(-235px, 75px); }
+main .biz_network_wrap .pin .vietnam {transform: translate(-225px, 25px); }
+main .biz_network_wrap .popup {display: none; width: 360px; height: 200px; position: relative; position: absolute; left:40%; top: 30%; background: #145599;}
 main .biz_network_wrap .popup li {color: #fff; padding: 10px 10px;}
 main .biz_network_wrap .arw {display: block; width: 20px; height: 20px; 
   position: absolute; left: -10px; top: 5px; background: #145599; transform: rotate(-45deg);}
 main .biz_network_wrap .office { position: absolute; bottom:70px; left: 50%; transform: translateX(-50%); color: #fff;}
-main .biz_network_wrap .office li {float: left; margin-right: 10px; font-size: 22px; font-weight: bold; color: #999;}
-
+main .biz_network_wrap .office li {display: inline-block; margin-right: 10px; font-size: 28px; font-weight: bold; color: #999;}
 main .biz_network_wrap .office li.on {color: #145599;}
 main .biz_network_wrap .office li span.mob {display: none;}
 
@@ -131,15 +130,15 @@ main .biz_network_wrap .office li span.mob {display: none;}
 /*start_more_info_wrap*/
 main .more_info_wrap {width:100%; height: 980px; position: relative;
   background: url(../img/bg/community.png) no-repeat center; background-size: cover;}
-main .more_info_wrap .cmty {border: 2px solid #000;}
-main .cmty li {float: left; width: calc(25% - 38px/4); height: 300px; margin: 125px 10px 0 0; 
+main .more_info_wrap .cmty {}
+main .cmty li {float: left; width: calc(25% - 38px / 4); height: 300px; margin: 250px 10px 0 0; 
   text-align: center; color:#fff; border:1px solid #fff; }
 main .cmty li:last-child {margin-right: 0; }
 main .cmty li a { }
 main .cmty li a span {display: inline-block; font-size: 26px; padding: 50px 0 50px 0;}
 main .cmty li a img {display: block; margin: auto;}
-main .q_menu {padding-top: 14%; border: 2px solid #000;}
-main .q_menu li {float: left; width: calc(16.666% - (18px*5/6)); height: 160px; 
+main .q_menu {padding-top: 14%; }
+main .q_menu li {float: left; width: calc(16.666% - (18px * 5 / 6)); height: 160px; 
   margin-right: 15px; border: 1px solid #fff; text-align: center; }
 main .q_menu li:last-child {margin-right: 0; }
 main .q_menu li a {}
@@ -158,7 +157,7 @@ main .support_wrap .recruit p {font-size: 18px;}
 
 main .support_wrap .customer {width: 50%; height: 425PX; color: #FFF; background: url(../img/bg/customer.jpg)no-repeat; background-size: contain;}
 main .support_wrap .customer a {display: inline-block; margin: 20px 0 0 40px;}
-main .support_wrap .customer span {display: block; color: red; }
+main .support_wrap .customer span {display: block; color: #ccc; }
 main .support_wrap .customer strong {display: block; font-size: 26px; font-weight: bold; padding: 20px 0 30px 0;}
 main .support_wrap .customer p {font-size: 18px;}
 /*end_support_wrap*/
