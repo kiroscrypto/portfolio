@@ -110,17 +110,22 @@ main .biz_network_wrap {width: 100%; height: 980px; position: relative; margin: 
   background: url(../img/bg/map.png) no-repeat center; }
 main .biz_network_wrap h2 {font-size: 40px; font-weight: 900; margin-bottom: 30px; text-align: center;}
 main .biz_network_wrap p {font-size: 18px; font-weight: normal; margin-bottom: 30px;line-height: 1.5; text-align: center;}
+main .biz_network_wrap .pin img {width: 25px; height: 25px;}
+main .biz_network_wrap .pin .head {position: absolute; left: 42.3%; top: 46%; }
+main .biz_network_wrap .pin .bang {position: absolute; left: 40%; top: 50%; }
+main .biz_network_wrap .pin .china {position: absolute; left: 40%; top: 50%; }
+main .biz_network_wrap .pin .sing {position: absolute; left: 40%; top: 50%; }
+main .biz_network_wrap .pin .vietnam {position: absolute; left: 40%; top: 50%; }
 main .biz_network_wrap .popup {width: 360px; height: 200px; position: relative; position: absolute; left:40%; top: 30%; background: #145599;}
-main .biz_network_wrap .popup li {color: #fff; }
+main .biz_network_wrap .popup li {color: #fff; padding: 10px 10px;}
 main .biz_network_wrap .arw {display: block; width: 30px; height: 30px; 
-  position: absolute; left: -15px; top: 0; background: #145599; transform: translate(-45deg);}
+  position: absolute; left: -30px; top: 0; background: #145599; transform: rotate(-45deg);}
 main .biz_network_wrap .office { position: absolute; bottom:70px; left: 50%; transform: translateX(-50%); color: #fff;}
 main .biz_network_wrap .office li {float: left; margin-right: 10px; font-size: 22px; font-weight: bold; color: #999;}
 
 main .biz_network_wrap .office li.on {color: #145599;}
 main .biz_network_wrap .office li span.mob {display: none;}
-main .biz_network_wrap .pin {position: absolute; left: 0; top: 0; border: 3px solid #000;}
-main .biz_network_wrap .pin img {width: 30px; height: 30px;}
+
 /*end_biz_network*/
 
 /*start_more_info_wrap*/
