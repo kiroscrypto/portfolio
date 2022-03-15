@@ -39,7 +39,7 @@ header .hdr_util {float: right; margin-top: 20px; }
 header .hdr_util .lang {float: left; margin-right: 20px;}
 header .hdr_util .lang li {float: left; margin-right: 20px;}
 header .hdr_util .ham_btn {float: right;  }
-header .hdr_util .ham_btn span {  display: block; width: 25px; height: 5px; margin: 2px 0; background: #3366ff;}
+header .hdr_util .ham_btn span {  display: block; width: 25px; height: 5px; margin: 2px 0; background: #145599;}
 
 header .allmenu {display: none;}
 header .allmenu .a1 {}
@@ -74,9 +74,9 @@ main .esg_wrap p {font-size: 18px; font-weight: normal; margin-bottom: 30px; lin
 main .esg_wrap ul {padding: 40px 0;}
 main .esg_wrap ul li {float: left;width: calc(33.33333% - 60px/3); margin-right: 30px; position: relative; }
 main .esg_wrap ul li:last-child {margin-right: 0;}
-main .esg_wrap ul li:hover:before {content:""; display: block; width: 100%; height: 20px; background: #153399; margin-bottom: 10px;
+main .esg_wrap ul li:hover:before {content:""; display: block; width: 100%; height: 20px; background: #145599; margin-bottom: 10px;
 position: absolute; top:-30px;}
-main .esg_wrap ul li:hover:after {content:""; display: block; width: 100%; height: 20px; background: #153399; margin-top: 10px;
+main .esg_wrap ul li:hover:after {content:""; display: block; width: 100%; height: 20px; background: #145599; margin-top: 10px;
   position: absolute; bottom:-30px;}
 
 main .esg_wrap ul li a {}
@@ -112,13 +112,15 @@ main .biz_network_wrap h2 {font-size: 40px; font-weight: 900; margin-bottom: 30p
 main .biz_network_wrap p {font-size: 18px; font-weight: normal; margin-bottom: 30px;line-height: 1.5; text-align: center;}
 main .biz_network_wrap .pin img {width: 25px; height: 25px; position: absolute; left: 50%; top: 50%; }
 main .biz_network_wrap .pin .head {transform: translate(-145px, -35px);}
-/* main .biz_network_wrap .pin .head:hover .popup .head_txt {display: block;} */
 main .biz_network_wrap .pin .bang {transform: translate(-275px, 15px); }
 main .biz_network_wrap .pin .china {transform: translate(-175px, -5px); }
 main .biz_network_wrap .pin .sing {transform: translate(-235px, 75px); }
 main .biz_network_wrap .pin .vietnam {transform: translate(-225px, 25px); }
-main .biz_network_wrap .popup {display: none; width: 360px; height: 200px; position: relative;}
-main .biz_network_wrap .popup .on {display: block; position: absolute; left:50%; top: 50%; background: #145599;}
+main .biz_network_wrap .popup {position: absolute; left: 50%; top: 50%; }
+main .biz_network_wrap .popup .h_txt {position:relative; transform: translate(-90px, -55px); padding: 10px; width: 350px; height:200px; 
+  color: #FFF; border-radius: 10px; background-color: #145599;}
+main .biz_network_wrap .popup .h_txt:after {content:""; position: absolute; top: 21px; left: -30px; border-right: 30px solid #145599; 
+  border-top: 10px solid transparent; border-bottom: 10px solid transparent;}
 main .biz_network_wrap .popup li {color: #fff; padding: 10px 10px;}
 main .biz_network_wrap .arw {display: block; width: 20px; height: 20px; 
   position: absolute; left: -10px; top: 5px; background: #145599; transform: rotate(-45deg);}
@@ -211,7 +213,7 @@ footer .top_btn {position: absolute; right: 0; bottom: 0; }
   main .biz_network_wrap .popup {display: none;}
   main .biz_network_wrap .office {position: relative; }
   main .biz_network_wrap .office li {float: none; margin-bottom: 20px; }
-  main .biz_network_wrap .office li:before {content:""; display: inline-block; width: 18px; height: 18px; margin-right: 5px; background: #153399;}
+  main .biz_network_wrap .office li:before {content:""; display: inline-block; width: 18px; height: 18px; margin-right: 5px; background: #145599;}
   main .biz_network_wrap .office li span.mob {display: block; font-size: 16px; padding: 10px;}
 
   main .more_info_wrap .cmty li {width: calc(50% - 14px/2);  margin: 10px 10px 0 0;}
