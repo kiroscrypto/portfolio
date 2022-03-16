@@ -125,8 +125,8 @@ main .biz_network_wrap .bang {transform: translate(-275px, 15px); }
 main .biz_network_wrap .china {transform: translate(-175px, -5px); }
 main .biz_network_wrap .sing {transform: translate(-235px, 75px); }
 main .biz_network_wrap .vietnam {transform: translate(-225px, 25px); }
-main .biz_network_wrap .popup {display: none; position: absolute; left: 50%; top: 50%; }
-main .biz_network_wrap .popup .h_txt {position:relative; transform: translate(-90px, -55px); padding: 10px; width: 350px; height:200px; 
+main .biz_network_wrap .popup {position: absolute; left: 50%; top: 50%; }
+main .biz_network_wrap .popup .h_txt {display: none;  position:relative; transform: translate(-90px, -55px); padding: 10px; width: 350px; height:200px; 
   color: #FFF; border-radius: 10px; background-color: #145599;}
 main .biz_network_wrap .popup .h_txt:after {content:""; position: absolute; top: 21px; left: -30px; border-right: 30px solid #145599; 
   border-top: 10px solid transparent; border-bottom: 10px solid transparent;}
