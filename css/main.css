@@ -159,13 +159,13 @@ main .q_menu li a span {color: #FFF;}
 /*start_support_wrap*/
 main .support_wrap {}
 main .support_wrap li {float: left;}
-main .support_wrap .recruit {width: 50%; height: 425PX; color: #FFF; background: url(../img/bg/recruit.jpg)no-repeat; background-size: contain;}
+main .support_wrap .recruit {width: 50%; height: 360PX; color: #FFF; background: url(../img/bg/recruit.jpg)no-repeat; background-size: contain;}
 main .support_wrap .recruit a {display: inline-block; margin: 20px 0 0 40px;}
 main .support_wrap .recruit span {display: block; color: #ccc; }
 main .support_wrap .recruit strong {display: block; font-size: 26px; font-weight: bold; padding: 20px 0 30px 0;}
 main .support_wrap .recruit p {font-size: 18px;}
 
-main .support_wrap .customer {width: 50%; height: 425PX; color: #FFF; background: url(../img/bg/customer.jpg)no-repeat; background-size: contain;}
+main .support_wrap .customer {width: 50%; height: 360PX; color: #FFF; background: url(../img/bg/customer.jpg)no-repeat; background-size: contain;}
 main .support_wrap .customer a {display: inline-block; margin: 20px 0 0 40px;}
 main .support_wrap .customer span {display: block; color: #ccc; }
 main .support_wrap .customer strong {display: block; font-size: 26px; font-weight: bold; padding: 20px 0 30px 0;}
