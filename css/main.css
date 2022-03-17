@@ -200,7 +200,7 @@ footer .top_btn {position: absolute; right: 0;bottom: 0;}
 @media screen and (max-width:720px) {
 
   /*start_header*/
-
+  header h1 a {width: 130px; background: url(../img/icon/logo_footer.png) no-repeat center;background-size: contain; }
   header nav {display: none}
   /*end-header*/
   
