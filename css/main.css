@@ -140,14 +140,14 @@ main .biz_network_wrap .office li span.mob {display: none;}
 /*start_more_info_wrap*/
 main .more_info_wrap {width:100%; height: 980px; position: relative;
   background: url(../img/bg/community.png) no-repeat center; background-size: cover;}
-main .more_info_wrap .cmty {width: 90%; position: absolute; left: 50%; top:32%; transform: translate(-50%, -50%);}
+main .more_info_wrap .cmty {border: 3px solid green; width: 90%; position: absolute; left: 50%; top:32%; transform: translate(-50%, -50%);}
 main .cmty li {float: left; width: calc(25% - 38px / 4); padding: 40px 0; margin-right: 10px;
   text-align: center; color:#fff; border:1px solid #fff; }
 main .cmty li:last-child {margin-right: 0;}
 main .cmty li a { }
 main .cmty li a span {display: inline-block; font-size: 26px; padding: 50px 0 50px 0;}
 main .cmty li a img {display: block; margin: auto;}
-main .more_info_wrap .q_menu {width: 90%; position: absolute; left: 50%; bottom:3%; transform: translate(-50%, -50%);}
+main .more_info_wrap .q_menu {border: 3px solid red; width: 90%; position: absolute; left: 50%; bottom:3%; transform: translate(-50%, -50%);}
 main .q_menu li {float: left; width: calc(16.666% - (87px / 6)); padding: 20px 0; margin-right: 15px; 
   border: 1px solid #fff; text-align: center; }
 main .q_menu li:last-child {margin-right: 0; }
@@ -222,10 +222,12 @@ footer .top_btn {position: absolute; right: 0;bottom: 0;}
   main .biz_network_wrap .office li:before {content:""; display: inline-block; width: 18px; height: 18px; margin-right: 5px; background: #145599;}
   main .biz_network_wrap .office li span.mob {display: block; font-size: 16px; padding: 10px; }
 
+  main .more_info_wrap .cmty {position: absolute;}
   main .more_info_wrap .cmty li {width: calc(50% - 14px/2);  margin: 10px 10px 0 0;}
   main .more_info_wrap .cmty li:nth-child(2n) {margin-right: 0;}
 
-  main .more_info_wrap .q_menu li {float: left; width: calc(33.3333% - 36px/3);}
+  main .more_info_wrap .q_menu {position: absolute; top: 77%;}
+  main .more_info_wrap .q_menu li {width: calc(33.3333% - 36px/3);}
   main .more_info_wrap .q_menu li:nth-child(3) {margin-right: 0;}
   main .more_info_wrap .q_menu li:nth-child(6) {margin-right: 0;}
   
@@ -236,7 +238,7 @@ footer .top_btn {position: absolute; right: 0;bottom: 0;}
 
   /*start_Footer*/
   footer .footer_menu_wrap {border-bottom: none; position: relative; }
-  footer .footer_menu ul li {float: none; display: inline-block; margin-right: 20px;}
+  footer .footer_menu ul li {float: none; display: inline-block; margin-right: 5px; font-size: 14px;}
 
   footer .family_site ul li {}
   footer .family_site button {position: absolute; left: 0;bottom: 0;}
@@ -245,9 +247,8 @@ footer .top_btn {position: absolute; right: 0;bottom: 0;}
  
   footer .corp_info_wrap {border-top: 1px solid #404040; margin-top: 15px;}
   footer .corp_info_wrap img {display: block; margin-top: 20px;}
-  footer .corp_info_wrap address {}
-  footer .corp_info_wrap p {}
-
+  footer .corp_info_wrap address {font-size: 14px;}
+  footer .corp_info_wrap p {font-size: 12px;}
   /*end_Footer*/
 
 }/*end_mobile*/
