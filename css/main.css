@@ -178,21 +178,22 @@ main .support_wrap .customer p {font-size: 18px;}
 /*end_main*/
 
 /*start_Footer*/
-footer {background: #262626; padding: 20px 0; }
-footer .footer_menu_wrap {border-bottom: 1px solid #404040;}
+footer {background: #262626; padding: 20px 0 50px 0; }
+footer .footer_menu_wrap {padding: 10px 0 20px 0; position: relative; border-bottom: 1px solid #404040;}
 footer .footer_menu {}
 footer .footer_menu ul {}
-footer .footer_menu ul li {float: left; margin: 10px 10px 0 0; color: #fff; }
+footer .footer_menu ul li {float: left; margin: 10px 20px 0 0; color: #fff; }
 footer .footer_menu ul li span {font-weight: 500;}
-footer .family_site {}
-footer .family_site button {float: right; margin-top: 10px; border: 1px solid #145599; padding: 10px; color: #fff;}
+footer .family_site {position: relative; position: absolute; top:10px;right: 0;}
+footer .family_site button {padding: 10px; border: 1px solid #145599; color: #fff;}
 footer .family_site button img {margin-left: 100px;}
-footer .family_site ul {display: none;}
-footer .family_site ul li {}
-footer .sns {}
-footer .sns ul li {float: right; margin-right: 15px;}
+footer .family_site ul {position: absolute;left: 0;right: 0; bottom: 39px; background: #145599;}
+footer .family_site ul li {padding:10px; color: #fff;}
+footer .sns { margin-right: 240px;}
+footer .sns ul{ text-align:right;}
+footer .sns ul li {display: inline-block; margin-right: 15px;}
 footer .sns ul li img {width: 40px; height: 40px; }
-footer .corp_info_wrap { margin-top: 20px; position: relative;}
+footer .corp_info_wrap { margin-top: 30px; position: relative;}
 footer .corp_info_wrap img {}
 footer .corp_info_wrap address {margin: 10px 0; color: #fff;}
 footer .corp_info_wrap p {color:#999;}
@@ -245,13 +246,19 @@ footer .top_btn {position: absolute; right: 0;bottom: 0;}
   /*end_main*/
 
   /*start_Footer*/
-  footer .footer_menu_wrap {border-bottom: none; position: relative; }
-  footer .footer_menu ul li {float: none; display: inline-block; margin-right: 5px; font-size: 14px;}
+  footer .footer_menu_wrap {border-bottom: none; position: relative;}
 
+  footer .footer_menu {}
+  footer .footer_menu:after {content:""; display: block; clear: both;}
+  footer .footer_menu ul li { margin-right: 5px; font-size: 14px;}
+
+  footer .family_site {position: relative; padding: 10px 0 50px 0;}
+  footer .family_site ul {position: absolute;left: 0;right: 50%; bottom: 89px;}
   footer .family_site ul li {}
-  footer .family_site button {position: absolute; left: 0;bottom: 0;}
-  footer .sns ul {}
-  footer .sns ul li {float: none; display: inline-block; padding: 25px 0;  margin-bottom: 30px;}
+  footer .family_site button {}
+  footer .sns {position: absolute; bottom: 0; margin-right: 0;}
+  footer .sns ul {text-align: justify;}
+  footer .sns ul li {display: inline-block;}
  
   footer .corp_info_wrap {border-top: 1px solid #404040; margin-top: 15px;}
   footer .corp_info_wrap img {display: block; margin-top: 20px;}
