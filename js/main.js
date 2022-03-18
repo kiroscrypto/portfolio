@@ -1,4 +1,10 @@
 $(function(){
+  $('#gnb>li').hover(function(){
+    $(this).find('.g2').addClass('on');
+  }, function(){
+  $(this).find('.g2').removeClass('on');
+  });
+
   $('img.head').hover(function(){
     $('.popup .h_txt').show(1500);
   }, function(){
@@ -6,9 +12,9 @@ $(function(){
   });
 
   $('.cmty li').hover(function(){
-    $('.cmty li:nth-child>span').addClass('on').show(500);
+    $(this).find('.bg_green').addClass('on').fadeIn(1000);
   }, function(){
-    $('.cmty li:nth-child>span').removeClass('on').hide(500);
+    $(this).find('.bg_green').removeClass('on').fadeOut(1000);
   });
 });
 
