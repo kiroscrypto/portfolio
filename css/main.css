@@ -32,8 +32,10 @@ header h1 a {display: block;width: 260px; height: 40px; padding: 10px 0;backgrou
 
 header nav {}
 header nav #gnb { text-align: center; }
-header nav #gnb>li {display: inline-block; padding: 0 20px;  line-height: 60px;  }
-header nav #gnb .g2 > li {display: none;} 
+header nav #gnb>li {display: inline-block; padding: 0 40px; position: relative; line-height: 60px;}
+header nav #gnb .g2 {display: none; position: absolute; left: 0; top: 60; right: 0;  background:rgba(20, 85, 153, 0.4)} 
+header nav #gnb .on {display: block;} 
+header nav #gnb .g2 li {padding: 10px 0;} 
 
 header .hdr_util {float: right; margin-top: 20px; }
 header .hdr_util .lang {float: left; margin-right: 20px;}
@@ -216,8 +218,7 @@ footer .top_btn {position: absolute; right: 0;bottom: 0;}
   main .biz_area_wrap ul li:nth-child(2n) {border-right: none;}
   main .biz_area_wrap a span {font-size: 16px; }
 
-
-  main .biz_network_wrap {background-image: none}
+  main .biz_network_wrap {background-image: none; padding-bottom: 50px; }
   main .biz_network_wrap p {margin-bottom: 50px;}
   main .biz_network_wrap #pin {display: none;}
   main .biz_network_wrap .popup {display: none;}
@@ -254,6 +255,7 @@ footer .top_btn {position: absolute; right: 0;bottom: 0;}
   footer .corp_info_wrap img {display: block; margin-top: 20px;}
   footer .corp_info_wrap address {font-size: 14px;}
   footer .corp_info_wrap p {font-size: 12px;}
+  footer .top_btn img {width: 20px; height: 22px;}
   /*end_Footer*/
 
 }/*end_mobile*/
