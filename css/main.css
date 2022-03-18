@@ -187,7 +187,8 @@ footer .footer_menu ul li span {font-weight: 500;}
 footer .family_site {position: relative; position: absolute; top:10px;right: 0;}
 footer .family_site button {padding: 10px; border: 1px solid #145599; color: #fff;}
 footer .family_site button img {margin-left: 100px;}
-footer .family_site ul {position: absolute;left: 0;right: 0; bottom: 39px; background: #145599;}
+footer .family_site ul {display: none; position: absolute;left: 0;right: 0; bottom: 39px; background: #145599;}
+footer .family_site ul.on {display: block;}
 footer .family_site ul li {padding:10px; color: #fff;}
 footer .sns { margin-right: 240px;}
 footer .sns ul{ text-align:right;}
