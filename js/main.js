@@ -38,6 +38,6 @@ $(function(){
     }, function(){
       $('.family_site>ul').removeClass('on');
     });
+   });
   });
-});
 
