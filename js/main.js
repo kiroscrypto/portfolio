@@ -14,10 +14,10 @@ $(function(){
   $('.biz_area_wrap li').hover(function(){
     $(this).find('.blue_bg').animate({
       height: '100%'
-    }, 1000);
-    // $(this).find('.blue_bg').animate({
-    //   height: '70px'
-    // }, 1000);
+    }, 1000).css({'background-color':'rgba(20, 85, 153, 0.8)'}, 1000),
+    $(this).find('.blue_bg').animate({
+      height: '20%'
+    }, 500);
   });
 
   $('.biz_area_wrap li').hover(function(){
