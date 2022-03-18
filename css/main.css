@@ -107,13 +107,13 @@ main .biz_area_wrap ul li {float: left; width: calc(25% - 5px/4); position: rela
 main .biz_area_wrap ul li:last-child { border-right:none;}
 main .biz_area_wrap li a {}
 main .biz_area_wrap a img {width: 100%}
-main .biz_area_wrap a span.eng {position: absolute; left: 50%; transform: translateX(-50%); bottom: 30px; 
+main .biz_area_wrap a span.eng {position: absolute; left: 50%; transform: translateX(-50%); bottom: 10%;
   font-size: 22px;  color: #fff;}
-main .biz_area_wrap a span.kr {display: none; position: absolute; left: 50%; transform: translateX(-50%); bottom: 30px; 
+main .biz_area_wrap a span.kr {display: none; position: absolute; left: 50%; transform: translateX(-50%); bottom: 10%; 
   font-size: 22px;  color: #fff;}
 main .biz_area_wrap a button {display: none; width: 50px; height: 50px; background: url(../img/icon/plus_circle.png); 
   position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);  }
-main .biz_area_wrap li .blue_bg {display: block; width: 100%; height: 70px; position: absolute; left: 0; right: 0; bottom: 0; background: #145599;}
+main .biz_area_wrap li .blue_bg {display: block; width: 100%; height: 20%; position: absolute; left: 0; right: 0; bottom: 0; background: #145599;}
 /* main .biz_area_wrap li .on {height: 100%; position: absolute; left: 0; right: 0; top: 0; bottom: 0; background-color:rgba(20, 85, 153, 0.8); } */
 /*end_biz_area*/
 
