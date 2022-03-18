@@ -31,17 +31,13 @@ $(function(){
   }, function(){
     $(this).find('.bg_green').removeClass('on').fadeOut(1000);
   });
+
+  $(function(){
+    $('.family_site>button').hover(function(){
+      $('.family_site>ul').addClass('on');
+    }, function(){
+      $('.family_site>ul').removeClass('on');
+    });
+  });
 });
 
-
-
-
-
-
-// $(function(){
-//   $('img.head').hover(function(){
-//     $('.popup .h_txt').show(1500);
-//   }, function(){
-//   $('.popup .h_txt').hide(2000);
-//   });
-// });
