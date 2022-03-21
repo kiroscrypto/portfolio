@@ -33,7 +33,7 @@ header h1 a {display: block;width: 260px; height: 40px; padding: 10px 0;backgrou
 header nav {}
 header nav #gnb { text-align: center; }
 header nav #gnb>li {display: inline-block; padding: 0 40px; position: relative; line-height: 60px;}
-header nav #gnb .g2 {display: none; position: absolute; left: 0; top: 60; right: 0;  background:rgba(20, 85, 153, 0.4)} 
+header nav #gnb .g2 {display: none; position: absolute; left: 0; top: 60px; right: 0;  background:rgba(20, 85, 153, 0.4)} 
 header nav #gnb .on {display: block;} 
 header nav #gnb .g2 li {padding: 10px 0;} 
 
